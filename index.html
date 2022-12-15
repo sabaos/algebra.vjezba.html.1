@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
   </head>
+  <style>
+    section {width: 50%;}
+    hr {width: 50%; border: dashed 0.3px; margin-left: 0px; color: #ff476f;}
+  </style>
   <title>Moja firma</title>
 <body> 
 <header>
@@ -14,13 +18,30 @@
         <!-- # anchori na sekcije stranica -->
         <li><a href="/index.html">Početna</a></li>
         <li><a href="#onama">O nama</a></li>
+        <li><a href="#djelatnost">Naše djelatnosti</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
     </ul>
 </header>
 <hr>
 <main>
-  <h1>naslov posta na ovoj stranici</h1>
-  <p>Ovo je samo neki super tekst za probu</p>
+  <section>
+  <h2 id="onama">Tekst o nama</h2>
+  <img src="./media/images/about_image.jpg" width="760px" alt="about">
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</section>
+  <hr>
+<section>
+  <h2 id="djelatnost">Naše djelatnosti</h2>
+  <img src="./media/images/what_we_do.jpg" alt="djelatnosti" width="760px">
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</section>
+  <hr>
+<section>
+  <h2 id="kontakt">Kontakt</h2>
+  <a href="mailto:supermail@superfirma.hr" target="blank">supermail@superfirma.hr</a>
+</section>
+
+
 </main>
 <hr>
 <footer>
