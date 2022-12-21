@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th {
+        font-size: 28px;
+        text-align: left;
+        color:red;
+        background-color: #000;
+        padding: 10px 15px ;
+        border:1px solid #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;}
+    td {padding: 5px 10px;}
+    hr {margin: 30px;}
+</style>
+<body>
+<h2>Osnovna tablica s okvirima</h2>
+<table style="width: 100%">
+    <thead>
+        <tr>
+            <th>Naziv 1</th>
+            <th>Naziv 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ćelija 1 u 1. retku</td>
+            <td>Ćelija 2 u 1. retku</td>
+        </tr>
+        <tr>
+            <td>Ćelija 3 u 2. retku</td>
+            <td>Ćelija 4 u 2. retku</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<table style="width: 100%;">
+    <tr>
+        <th>Ime</th>
+        <th style="width: 60%;">Prezime</th>
+        <th>Godine</th>
+    </tr>
+    <tr>
+        <td>Marko</td>
+        <td>Ivić Marković</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>50</td>
+    </tr>
+</table>
+
+<hr>
+<table style="width: 100%;">
+    <tr>
+        <th>Ime</th>
+        <td>Marko</td>
+        <td>Ivana</td>
+    </tr>
+    <tr>
+        <th>Prezime</th>
+        <td>Marković</td>
+        <td>Ivić Marković</td>
+    </tr>
+    <tr>
+        <th>Godine</th>
+        <td>20</td>
+        <td>50</td>
+    </tr>
+</table>
+<hr>
+<h2>stupac kroz 3 reda</h2>
+<table>
+    <tr >
+        <td style="color: red; background-color: #000;" rowspan="3" width="160">prvi stupac</td>
+        <td width="160">prvi redak</td>
+    </tr>
+    <tr>
+        <td>drugi redat</td>
+    </tr>
+    <tr>
+        <td>treći redat</td>
+    </tr>
+</table>
+<hr>
+<h2> redak kroz 3 stupca</h2>
+<table>
+    <tr style="color: red; background-color: #000;">
+        <td colspan="3" width="320">Prvi redak</td>
+    </tr>
+    <tr>
+        <td>Prvi stupac</td>
+        <td>Drugi stupac</td>
+        <td>Treći stupac</td>
+    </tr>
+</table>
+<hr>
+
+<h2>SLOŽENE TABLICE</h2>
+<table id="prva">
+    <tr>
+        <td>Stupac 1</td>
+        <td>Stupac 2</td>
+        <td>Stupac 3</td>
+        <td>Stupac 4</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td colspan="3">6</td>
+    </tr>
+    <tr>
+        <td colspan="2">7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td colspan="3">10</td>
+        <td>11</td>
+    </tr>
+</table>
+<hr>
+<h2>Još složenija tablica</h2>
+<table>
+    
+<tr>
+    <td rowspan="3">Stupac 1</td>
+    <td rowspan="2">stupac 2</td>
+    <td>stupac 3</td>
+    <td>stupac 4</td>
+</tr>
+<tr>
+    <td rowspan="2">5</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>8</td>
+</tr>
+</table>
+</body>
+</html>
