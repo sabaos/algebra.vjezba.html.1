@@ -16,9 +16,12 @@
   <body>
 <header>
     <a href="../index.html">Povratak na početnu</a>
+    <a href="#tablica1">Tablica 1</a>
+    <a href="#tablica2">Tablica 2</a>
+    <a href="#tablica3">Tablica 3</a>
 </header>
 <section>
-    <h2 id="#tablica1">Tablica 1</h2>
+    <h2 id="tablica1">Tablica 1</h2>
     <table>
         <tr>
             <th>Ime</th>
@@ -54,15 +57,43 @@
 </section>
 <hr>
 <section>
-    <h2 id="#tablica2">Tablica 2</h2>
+    <h2 id="tablica2">Tablica 2</h2>
     <table>
         <tr>
-            <th>&nbsp</th>
-            <th>&nbsp</th>
-            <th>&nbsp</th>
+            <th>Redni broj</th>
+            <th>Materijal</th>
+            <th>Materijal 2</th>
+            <th>Materijal 3</th>
+            <th>Materijal 4</th>
         </tr>
         <tr>
+            <td>1</td>
+            <td>Plastika</td>
+            <td>Željezo</td>
+            <td>Guma</td>
             <td>&nbsp</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Željezo</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">Kombinacija željeza i plastike</td>
+            <td colspan="2">Kombinacija raznih materijala</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>&nbsp</td>
+            <td colspan="2">kombinacija željeza i gume</td>
+            <td>&nbsp</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td colspan="2">Kombinacija drva, željeza i plastike</td>
             <td>&nbsp</td>
             <td>&nbsp</td>
         </tr>
@@ -70,17 +101,42 @@
 </section>
 <hr>
 <section>
-    <h2 id="#tablica3">Tablica 3</h2>
+    <h2 id="tablica3">Tablica 3</h2>
     <table>
         <tr>
-            <th>&nbsp</th>
-            <th>&nbsp</th>
-            <th>&nbsp</th>
+            <th>Predmet</th>
+            <th>Moguće izvedbe</th>
+            <th>Boja</th>
+            <th>Broj komada</th>
+            <th>Napomena</th>
         </tr>
         <tr>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
+            <td rowspan="3">Igračka 1</td>
+            <td rowspan="2">Auto</td>
+            <td>Plava</td>
+            <td>10</td>
+            <td>Pakirati pojedinačno</td>
+        </tr>
+        <tr>
+            <td>Crvena</td>
+            <td>20</td>
+            <td>Pakirati u setovima od 10 kom</td>
+        </tr>
+        <tr>
+            <td>Vlak</td>
+            <td>Zelena</td>
+            <td>5</td>
+            <td>U velike kutije</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Igračka 2</td>
+            <td rowspan="2">Medo</td>
+            <td>Roza</td>
+            <td rowspan="2">15</td>
+            <td rowspan="2">Plišani veličine 20cm</td>
+        </tr>
+        <tr>
+            <td>Smeđa</td>
         </tr>
     </table>
 </section>
